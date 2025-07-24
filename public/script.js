@@ -131,18 +131,6 @@ contactForm.addEventListener('submit', function(e) {
 });
 
 // Download resume functionality
-document.querySelector('.download-btn').addEventListener('click', function(e) {
-    e.preventDefault();
-    
-    // Create a temporary alert since we don't have an actual resume file
-    alert('Resume download would be triggered here. Please add your actual resume file to the project.');
-    
-    // In a real implementation, you would do something like:
-    // const link = document.createElement('a');
-    // link.href = 'path/to/your/resume.pdf';
-    // link.download = 'Kruthika_A_Resume.pdf';
-    // link.click();
-});
 
 // Intersection Observer for animations
 const observerOptions = {
